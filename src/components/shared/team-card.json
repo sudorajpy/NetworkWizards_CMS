@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_team_cards",
+  "info": {
+    "displayName": "TeamCard"
+  },
+  "options": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "job": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "SocialNetwork": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-network"
+    }
+  }
+}
